@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Fira Code";
+        src: url("/fonts/FiraCode/static/FiraCode-Bold.ttf") format("tff");
+        font-weight: 700;
+        font-display: swap;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Fira Code";
+        src: url("/fonts/FiraCode/static/FiraCode-SemiBold.ttf") format("tff");
+        font-weight: 600;
+        font-display: swap;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Fira Code";
+        src: url("/fonts/FiraCode/static/FiraCode-Medium.ttf") format("tff");
+        font-weight: 500;
+        font-display: swap;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Fira Code";
+        src: url("/fonts/FiraCode/static/FiraCode-Regular.ttf") format("tff");
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "Fira Code";
+        src: url("/fonts/FiraCode/static/FiraCode-Light.ttf") format("tff");
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+    }
+}
